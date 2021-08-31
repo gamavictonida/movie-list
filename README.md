@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Project React JS Sederhana
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project ini adalah Project ReactJS Sederhana yang menunjukkan hal berikut:
+1. Membuat Komponen di React
+2. Melakukan panggilan HTTP
+3. Berkomunikasi antara komponen parent dan child
+4. Menggunakan Bootstrap dengan React
+5. Menggunakan Routing Dasar di React
 
-## Available Scripts
+### Instal Node JS
+Lihat https://nodejs.org/en/ untuk menginstal nodejs
 
-In the project directory, you can run:
+### Instal create-react-app
+Instal package npm create-react-app secara global. Ini akan membantu menjalankan project dengan mudah dan juga membangun file dengan mudah. Gunakan perintah berikut untuk menginstal create-react-app
 
-### `npm start`
+## Mengclone dan Menjalankan Aplikasi di lokal
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Clone project ke lokal
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Instal semua package npm. Masuk ke folder project dan ketik perintah berikut untuk menginstal semua paket npm
 
-### `npm test`
+```bash
+instal npm
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Untuk menjalankan aplikasi Ketik perintah berikut
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Aplikasi Berjalan di **localhost:3000**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Desain aplikasi
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Client HTTP
 
-### `npm run eject`
+**axios** library digunakan untuk melakukan call HTTP
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### URL
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Aplikasi ini hanya memiliki satu url
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Resources
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**create-react-app** : Link berikut memiliki semua perintah yang dapat digunakan dengan create-react-app
+https://github.com/facebook/create-react-app
 
-## Learn More
+**ReactJS** : Lihat https://reactjs.org/ untuk memahami konsep ReactJS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**React Bootstrap** : Lihat https://react-bootstrap.github.io/getting-started/introduction/ untuk memahami cara menggunakan React Bootstrap

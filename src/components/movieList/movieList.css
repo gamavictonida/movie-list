@@ -1,3 +1,15 @@
 .crop-img {
     object-fit: cover;
 }
+
+.imageModal {
+    margin-bottom: 30px;
+}
+
+.desc {
+    margin-bottom: 20px;
+}
+
+.plot {
+    margin-top: 10px;
+}
