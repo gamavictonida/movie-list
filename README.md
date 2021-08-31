@@ -20,7 +20,7 @@ Clone project ke lokal
 Instal semua package npm. Masuk ke folder project dan ketik perintah berikut untuk menginstal semua paket npm
 
 ```bash
-instal npm
+npm install
 ```
 
 Untuk menjalankan aplikasi Ketik perintah berikut

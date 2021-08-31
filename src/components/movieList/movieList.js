@@ -99,7 +99,7 @@ export default function InfiniteScrollNoLibrary() {
                             <div className="col-md-3" key={movie.imdbID}>
                                 <div className="card crop-img">
                                     <img onClick={handleClick} src={movie.Poster} alt={movie.Title} id={movie.imdbID} className="card-img-top" width="75" height="200" />
-                                    <div className="card-body">
+                                    <div className="card-body cardTitle">
                                         <h5 className="card-title">{movie.Title}</h5>
                                     </div>
                                 </div>

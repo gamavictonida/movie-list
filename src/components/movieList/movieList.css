@@ -14,3 +14,10 @@
 .plot {
     margin-top: 10px;
 }
+
+.cardTitle {
+    background-color: pink;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
