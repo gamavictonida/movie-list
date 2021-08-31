@@ -6,7 +6,7 @@ import './movieList.css'
 export default function InfiniteScrollNoLibrary() {
 
     const [movieList, setMovieList] = useState([]);
-    const [search, setSearach] = useState('fast');
+    const [search, setSearach] = useState('');
     const [page, setPage] = useState(1);
     const [loading, setLoading] = useState(false);
     const [noData, setNoData] = useState(false);
@@ -96,9 +96,9 @@ export default function InfiniteScrollNoLibrary() {
                 <div className="row pt-4 gx-4 gy-4">
                     {movieList.map((movie, i) =>
                         (
-                            <div className="col-md-4" key={movie.imdbID}>
+                            <div className="col-md-3" key={movie.imdbID}>
                                 <div className="card crop-img">
-                                    <img onClick={handleClick} src={movie.Poster} alt={movie.Title} id={movie.imdbID} className="card-img-top" width="200" height="400" />
+                                    <img onClick={handleClick} src={movie.Poster} alt={movie.Title} id={movie.imdbID} className="card-img-top" width="75" height="200" />
                                     <div className="card-body">
                                         <h5 className="card-title">{movie.Title}</h5>
                                     </div>
